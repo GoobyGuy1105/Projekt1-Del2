@@ -1,0 +1,46 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #121826;
+}
+header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+h1
+{
+    color: #00eaff;
+    font-family: "Orbitron", sans-serif;
+}
+nav
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+a
+{
+    color: #ff00ff;
+      font-family: "Inter", sans-serif;
+}
+main
+{
+    display: flex;
+    flex-direction: column;
+}
+p
+{
+    color: white;
+    font-family: "Inter", sans-serif;
+    border: #00eaff solid;
+}
+#Artikel
+{
+    width: 200px;
+    height: 150px;
+}
