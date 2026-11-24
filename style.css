@@ -35,12 +35,53 @@ main
 }
 p
 {
-    color: white;
+    color: #f2f2f2;
     font-family: "Inter", sans-serif;
-    border: #00eaff solid;
 }
 #Artikel
 {
     width: 200px;
     height: 150px;
+}
+div
+{
+    display: flex;
+    flex-direction: row;
+}
+article
+{
+    display: flex;
+    flex-direction: column;
+}
+aside
+{
+    display: flex;
+    flex-direction: column;
+}
+h2
+{
+    font-family: "Orbitron", sans-serif;
+    color: #f2f2f2;
+}
+h3
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #ff00ff;
+    font-family: "Inter", sans-serif;
+}
+#rightside
+{
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+#Delar
+{
+    padding-left: 1000px;
+}
+ul
+{
+     font-family: "Inter", sans-serif;
 }
