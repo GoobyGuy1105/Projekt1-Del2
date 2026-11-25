@@ -3,13 +3,26 @@ body
     display: flex;
     flex-direction: column;
     background-color: #121826;
+    background-image: url(Images/Futuristisk\ mörk\ techbakgrund\ med\ neonblå\ linjer.png);
+    background-repeat: no-repeat;
 }
 header
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
+}
+#PC
+{
+    height: 85px;
+    width: 85px;
+}
+#PC2
+{
+    height: 175px;
+    width: 175px;
+    padding-left: 250px;
 }
 h1
 {
@@ -48,6 +61,16 @@ div
     display: flex;
     flex-direction: row;
 }
+#Lista
+{
+    display: flex;
+    flex-direction: column;
+}
+#Punktlista
+{
+    display: flex;
+    flex-direction: column;
+}
 article
 {
     display: flex;
@@ -71,17 +94,23 @@ h3
     color: #ff00ff;
     font-family: "Inter", sans-serif;
 }
-#rightside
-{
-    display: flex;
-    flex-direction: column;
-    float: right;
-}
-#Delar
-{
-    padding-left: 1000px;
-}
+
 ul
 {
      font-family: "Inter", sans-serif;
+     color: #f2f2f2;
 }
+
+#Row
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
