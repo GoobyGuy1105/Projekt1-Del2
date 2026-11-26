@@ -58,7 +58,7 @@ p
     flex-direction: row;
     justify-content: space-between;
 }
-#Artikel
+.Artikel
 {
     width: 200px;
     height: 150px;
