@@ -22,6 +22,8 @@ header
 {
     height: 175px;
     width: 175px;
+    margin-right: 215px;
+
 }
 h1
 {
@@ -49,6 +51,12 @@ p
 {
     color: #f2f2f2;
     font-family: "Inter", sans-serif;
+}
+#Bilder
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 #Artikel
 {
